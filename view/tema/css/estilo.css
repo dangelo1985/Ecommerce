@@ -1,0 +1,122 @@
+body{
+    min-height: 100vh;
+	background-color: #ccc;
+	background-image: url('../images/fundo.jpg');
+}
+.caixaProdutos{
+	background-color:#FFF;
+	border-radius:10px; 
+	margin-bottom:10px; 
+	margin-top:10px;"
+}
+.logotipo{
+	padding: 5px;
+
+}
+.logotipo img{
+	height: 200px;
+	margin-left: 10px;
+}
+.perfil{
+	padding: 10px;
+}
+.perfil li:first-child{
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-left: 20px
+}
+@media (max-width: 767px){
+	.perfil{
+		color: #FFF;
+	}
+	.logotipo img{
+		height: 40px;
+	}
+	.ofertas h3{
+	font-size: 20px;
+	}
+}
+.corpo{
+	margin-top: -15px;
+}
+.conteudo{
+	background-color: #008B8B;
+}
+.list-group{
+	padding: 20px;
+}
+.categorias h1{
+	margin-left: 20px;
+	color: #FFF;
+}
+footer h4{
+	color: #FFF;
+	text-align: center;
+}
+.foot{
+	margin-top: -15px;
+}
+.foot p{
+	margin-top: 15px;
+	color: #FFF;
+}
+.painel{
+	margin-top: 5px;
+}
+.pesquisar{
+	margin-right: 10px;
+}
+.cont-pesquisa{
+	margin-top: -18px;
+}
+#carrossel{
+	margin-top: -15px;
+	margin-bottom: 20px;
+}
+.lista-grupo a{
+	background-color: #008B8B;
+	color: #FFF;
+}
+.titulo-painel {
+	background-color: #008B8B;
+	color: #FFF;
+	border-color: #FFF;
+}
+.panel-body a:hover{
+	background-color: #282829;
+	color: #FFF;
+}
+.btn-localizar:hover{
+	background-color: #282829;
+	border-color: #ccc;
+	color: #FFF;
+}
+.btn-localizar{
+	background-color: #ccc;
+}
+.ofertas{
+	margin-top: 5px;
+}
+.ofertas h3{
+	margin-top: 6px;
+}
+.email{
+	margin-top: 5px;
+}
+.email li{
+	padding: 3px;
+	width: 250px
+}
+.btn-enviar{
+	margin-top: 3px;
+	margin-left: 3px;
+	background-color:  #ccc;
+}
+.btn-enviar:hover{
+	background-color: #282829;
+	color: #FFF;
+}
+.caixa-imagem{
+	margin-left: 5px;
+}
